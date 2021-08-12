@@ -1,0 +1,8 @@
+server:
+  port: 8081
+  
+spring:  jpa:    hibernate:      ddl-auto: create    show-sql: true
+  datasource:    password: silva056    username: postgres    url: jdbc:postgresql://localhost:5432/fornecedor  application:    name: fornecedor
+
+eureka:  client:    register-with-eureka: true    fetch-registry: true
+    service-url:      defaultZone:  http://localhost:8761/eureka

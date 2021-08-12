@@ -2,14 +2,14 @@ package br.com.microservice.floricultura.controller.dto;
 
 public class InfoFornecedorDTO {
 
-	private String endereço;
+	private String endereco;
 
-	public String getEndereço() {
-		return endereço;
+	public String getEndereco() {
+		return endereco;
 	}
 
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereço(String endereco) {
+		this.endereco = endereco;
 	}
 	
 }
