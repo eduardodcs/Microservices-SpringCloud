@@ -8,6 +8,6 @@ public class FornecedorApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FornecedorApplication.class, args);
+		
 	}
-
 }
